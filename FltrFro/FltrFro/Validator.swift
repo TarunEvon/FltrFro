@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Flutter
 
 public struct Validator {
     public static func validEmail(_ email: String) -> Bool {

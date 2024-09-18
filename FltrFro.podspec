@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FltrFro"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "FltrFro is used to test 3rd party code"
   spec.description  = "This is to check the path for the dependencies used in navigation directory"
   spec.homepage     = "https://github.com/TarunEvon/FltrFro"
@@ -30,16 +30,10 @@ Pod::Spec.new do |spec|
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Link your library with frameworks, or libraries. Libraries do not include
-  #  the lib prefix of their name.
-  #
-
-  # spec.framework  = "SomeFramework"
+  # spec.framework  = "Flutter"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-
+  # spec.vendored_frameworks = 'Frameworks/Flutter.framework'
 
 
   # spec.requires_arc = true
