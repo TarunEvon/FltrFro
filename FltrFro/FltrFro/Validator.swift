@@ -7,6 +7,7 @@
 
 import Foundation
 import Flutter
+import FlutterPluginRegistrant
 
 public struct Validator {
     public static func validEmail(_ email: String) -> Bool {
